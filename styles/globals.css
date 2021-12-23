@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  position: relative;
+  background: #eef5ff;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  position: absolute;
+  top: 14vh;
+  width: 100vw;
+  height: 86vh;
+  /* border: 1px solid gray; */
+}
